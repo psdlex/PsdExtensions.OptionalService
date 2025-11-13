@@ -8,7 +8,21 @@
 	  <Title>PsdExtensions.OptionalService</Title>
 	  <Authors>psdlex</Authors>
 	  <Description>One-Model extension library that provides an OptionalService&lt;&gt; model for optional services in your DI-based application.</Description>
+	  <PackageProjectUrl>https://github.com/psdlex/PsdExtensions.OptionalService</PackageProjectUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/psdlex/PsdExtensions.OptionalService</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageTags>service;services;di;dependencyinjection;dependency;injection;optional services;optional</PackageTags>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
