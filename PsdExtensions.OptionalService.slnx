@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="PsdExtensions.OptionalService.Sample/PsdExtensions.OptionalService.Sample.csproj" />
+  <Project Path="PsdExtensions.OptionalService/PsdExtensions.OptionalService.csproj" />
+</Solution>
